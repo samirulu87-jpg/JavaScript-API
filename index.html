@@ -2,18 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style.css">
     <title>My API Test</title>
 </head>
 <body>
+    <div class="caption">Popular Restarants</div>
+    <section class="restarant-box">
+        <div class="cards"></div>
+    </section>
     <!-- Inspect this document, and check the console tab to see if our data is there -->
-     <script>
-        const URL = "https://iskarr.github.io/austindonovan.github.io/api/business.json"
-     fetch(URL)
-        .then((response) => response.json())
-        .then((jsObject) => {
-        console.log(jsObject);
-        });
-    </script>
+     <script src="script.js"></script>
 </body>
 </html>
