@@ -1,6 +1,6 @@
 This site works to show to how link a API, draw data from it and then dispay it on the screen. I hace included notes in the script to show how this is applied along with some notes on the extra fectures added. 
 
-Link: 
+Link: https://samirulu87-jpg.github.io/JavaScript-API/
 
 Script code with notes attatched 
       const URL =
